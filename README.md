@@ -2,7 +2,7 @@
 
 This is a `PyMOL` script to calculate the Euclidean distance between of two aligned alpha carbons (CAs) and to highlight unaligned residues.
 
-The script will select the alpha carbons (CA) from the reference and target protein stuctures, and align them at a default cutoff 2Å. The aligned residues will be coloured grey, and unaligned residues from the reference and target will be red and blue, respectively.
+The script will select the CAs from the reference and target protein stuctures, and align them at a default cutoff 2Å. The aligned residues will be coloured grey, and unaligned residues from the reference and target will be red and blue, respectively.
 
 ## Installation
 
