@@ -1,3 +1,7 @@
+Author: Xing Wan Date: 2024-03-15
+
+Inspired by rmsdByRes Zhenting Gao on 7/28/2016 and rmsdCA Yufeng Tong 2020-01-29
+
 # A PyMOL script to calculate alpha carbon distances between two aligned protein structures
 
 This is a `PyMOL` script to calculate the Euclidean distance between of two aligned alpha carbons (CAs) and to highlight unaligned residues.
