@@ -1,6 +1,18 @@
 from pymol import cmd, stored
 
 def list_unaligned_resi(ref_structure, tgt_structure, cutoff=2.0):
+    """
+    Author: Xing Wan Date: 2024-03-15
+    Inspired by rmsdByRes Zhenting Gao on 7/28/2016 and rmsdCA Yufeng Tong 2020-01-29
+    
+    Workflow
+     Load reference and target protein stuctures
+     1. Select alpha carbons of the two structures
+     2. Align those CAs
+     3. Calculate the atomatic distances
+     4. Select aligned and unaligned residues
+    """
+    
     stored.ca_ref_crd = []
     stored.ca_target_crd = []
     stored.all_ref_residues = set()
